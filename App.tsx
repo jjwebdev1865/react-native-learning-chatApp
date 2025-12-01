@@ -9,6 +9,7 @@ import { StyleSheet, Text, View } from 'react-native';
 import {
   SafeAreaProvider,
 } from 'react-native-safe-area-context';
+import CameraGallery from './src/lessons/CameraGallery';
 
 function App() {
 
@@ -17,6 +18,8 @@ function App() {
       <View style={{ flex: 1, backgroundColor: 'black', justifyContent: 'center', alignItems: 'center'}}>
         <Text style={{ color: 'white', fontSize: 40}}>Hello world</Text>
       </View>
+      <CameraGallery />
+      
     </SafeAreaProvider>
   );
 }
